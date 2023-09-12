@@ -1,6 +1,9 @@
 FROM python:3.7
 
+LABEL maintainer="Idris Fagbemi"
+
 WORKDIR /app
+
 
 COPY requirements.txt .
 
