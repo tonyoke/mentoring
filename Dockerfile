@@ -11,7 +11,7 @@ RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . .
 
-HEALTHCHECK CMD curl --fail http://localhost:5000/ || exit 1
+# HEALTHCHECK CMD curl --fail http://localhost:5000/ || exit 1
 
 EXPOSE 5000
 
